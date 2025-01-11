@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Alerts con Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <!-- Home Icon -->
+        <div class="text-end p-3">
+            <a href="../index.html" class="text-decoration-none text-dark">
+                <i class="bi bi-house-door-fill"></i> Home
+            </a>
+        </div>
+        
+        <!-- Header -->
+        <header class="bg-primary text-white py-5">
+            <div class="container text-center">
+                <h1 class="display-4">Ejemplo de Alerts con Bootstrap 5</h1>
+                <p class="lead">Demostración de diferentes tipos de alertas en Bootstrap</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="container my-5">
+            <h2 class="text-center mb-4">Trabajo realizado por Javier Sánchez Ocaña</h2>
+
+            <!-- Ejemplo Básico -->
+            <section>
+                <h3 class="text-center mb-4">Ejemplo Básico</h3>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="alert alert-primary" role="alert">
+                            Esta es una alerta primaria con Bootstrap.
+                        </div>
+                        <div class="alert alert-success mt-3" role="alert">
+                            Esta es una alerta de éxito con Bootstrap.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ejemplo Avanzado -->
+            <section class="mt-5">
+                <h3 class="text-center mb-4">Ejemplo Avanzado</h3>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <strong>¡Error!</strong> Algo salió mal.
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="alert alert-warning alert-dismissible fade show mt-3" role="alert">
+                            <strong>¡Advertencia!</strong> Revisa esta información.
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Alerts con Enlaces -->
+            <section class="mt-5">
+                <h3 class="text-center mb-4">Alerts con Enlaces</h3>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="alert alert-info" role="alert">
+                            Esta es una alerta con un enlace. <a href="#" class="alert-link">Haz clic aquí</a> para más información.
+                        </div>
+                        <div class="alert alert-light" role="alert">
+                            Una alerta más suave con un enlace. <a href="#" class="alert-link">Consulta los detalles.</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white py-4">
+            <div class="container text-center">
+                <p class="mb-0">&copy; 2024 Ejemplo de Alerts. Diseñado por <strong>Javier Sánchez Ocaña</strong>.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
