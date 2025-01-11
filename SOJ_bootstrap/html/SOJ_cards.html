@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Cards con Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+
+        <!-- Header -->
+        <header class="bg-primary text-white py-5">
+            <div class="container text-center">
+                <h1 class="display-4">Ejemplo de Cards con Bootstrap 5</h1>
+                <p class="lead">Demostración de cards con diferentes estilos, imágenes y funcionalidades.</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="container my-5">
+            <h2 class="text-center mb-4">Trabajo realizado por Javier Sánchez Ocaña</h2>
+
+            <!-- Card Básica -->
+            <section class="mt-5">
+                <h3 class="text-center mb-4">Card Básica</h3>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Título de la Card</h5>
+                        <p class="card-text">Este es un ejemplo de una card básica en Bootstrap 5. Puedes usarla para
+                            mostrar contenido breve.</p>
+                        <a href="#" class="btn btn-primary">Leer Más</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Card con Imagen -->
+            <section class="mt-5">
+                <h3 class="text-center mb-4">Card con Imagen</h3>
+                <div class="card shadow-sm">
+                    <img src="../img/paisaje-1.jpg" class="card-img-top" alt="Imagen de Ejemplo">
+                    <div class="card-body">
+                        <h5 class="card-title">Título con Imagen</h5>
+                        <p class="card-text">Esta card incluye una imagen en la parte superior, ideal para mostrar
+                            visualmente contenido destacado.</p>
+                        <a href="#" class="btn btn-secondary">Más Información</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cards en un Grid -->
+            <section class="mt-5">
+                <h3 class="text-center mb-4">Cards en un Grid</h3>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/paisaje-2.jpg" class="card-img-top" alt="Card 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Card 1</h5>
+                                <p class="card-text">Contenido de la primera card. Puedes personalizar cada card según
+                                    tus necesidades.</p>
+                                <a href="#" class="btn btn-info">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/paisaje-3.jpg" class="card-img-top" alt="Card 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Card 2</h5>
+                                <p class="card-text">Contenido de la segunda card. Perfecto para mostrar información
+                                    adicional.</p>
+                                <a href="#" class="btn btn-warning">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="../img/paisaje-1.jpg" class="card-img-top" alt="Card 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Card 3</h5>
+                                <p class="card-text">Contenido de la tercera card. Puedes agregar más detalles en cada
+                                    una de ellas.</p>
+                                <a href="#" class="btn btn-danger">Ver Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Card con Footer -->
+            <section class="mt-5">
+                <h3 class="text-center mb-4">Card con Footer</h3>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Card con Footer</h5>
+                        <p class="card-text">Esta card incluye un footer en la parte inferior para proporcionar
+                            información adicional.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Última actualización: hace 3 días
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white py-4 mt-5">
+            <div class="container text-center">
+                <p class="mb-0">&copy; 2024 Ejemplo de Cards. Diseñado por <strong>Javier Sánchez Ocaña</strong>.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
